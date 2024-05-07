@@ -10,4 +10,5 @@ vim.api.nvim_set_hl(0, 'CursorLine', { underline = true })
 vim.keymap.set('n','<leader>bn', ':bn<CR>')
 vim.keymap.set('n','<leader>bp', ':bp<CR>')
 vim.keymap.set('n','<leader>bd', ':bd<CR>')
+vim.cmd("set nohidden")
 
