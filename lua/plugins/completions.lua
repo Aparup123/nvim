@@ -47,8 +47,8 @@ return {
 			confirmation = { completeopt = 'menu,menuone,noinsert' } ,
 			-- sources for autocompletion
 			sources = cmp.config.sources({
-				{ name = "buffer" }, -- text within current buffer
 				{name= "nvim_lsp"},
+				{ name = "buffer" }, -- text within current buffer
 				{ name = "luasnip" }, -- snippets
 				{ name = "path" }, -- file system paths
 			}),
